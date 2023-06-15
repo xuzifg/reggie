@@ -8,4 +8,3 @@ import edu.czjt.reggie.entity.Category;
  */
 public interface CategoryService extends IService<Category> {
 }
-
