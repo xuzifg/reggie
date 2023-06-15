@@ -5,3 +5,4 @@ import edu.czjt.reggie.entity.User;
 
 public interface UserService extends IService<User> {
 }
+ 
