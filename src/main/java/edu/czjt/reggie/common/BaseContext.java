@@ -1,8 +1,6 @@
 package edu.czjt.reggie.common;
 
-/**
- * Created by jinkun.tian on 2023/3/21
- */
+//lloop
 public class BaseContext {
 
     private static ThreadLocal<Long> threadLocal = new ThreadLocal<>();
