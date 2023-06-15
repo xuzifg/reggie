@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 
 /**
 齐龙玉
+页面提交的数据比较复杂,所以经行的封装也比较复杂
 菜品口味
  */
 @Data
