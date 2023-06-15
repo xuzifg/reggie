@@ -97,6 +97,16 @@ public class EmployeeController {
         employeeService.save(employee);
 
         return R.success("新增员工成功");
+        //异常处理，在员工新增时，由于username是唯一的所以在名字重复是出现错误，由于异常可能较多此方法不好
+        //此方法弊端是每一个异常都需写一遍，所以编写一个全局异常处理
+        /*return R.success("新增员工成功");
+        try{
+            employeeService.save(employee);
+
+        }catch (Exception ex){
+            R.error(“新增员工失败”);
+        }
+        return R.success("新增员工成功");*/
     }
 
     @PutMapping
