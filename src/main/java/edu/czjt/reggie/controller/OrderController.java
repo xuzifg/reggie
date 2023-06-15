@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * 订单
+ * 订单（李嘉旭）
  */
 @Slf4j
 @RestController
@@ -26,7 +26,7 @@ public class OrderController {
 
 
     /**
-     * 用户下单
+     * 用户下单（李嘉旭）
      *
      * @param orders
      * @return
@@ -39,7 +39,7 @@ public class OrderController {
     }
 
     /**
-     * 再来一单
+     * 再来一单（李嘉旭）
      *
      * @param orders
      * @return
@@ -54,7 +54,7 @@ public class OrderController {
     }
 
     /**
-     * 分页查询
+     * 分页查询（李嘉旭）
      *
      * @param page
      * @param pageSize
@@ -85,7 +85,7 @@ public class OrderController {
     }
 
     /**
-     * 更新订单状态
+     * 更新订单状态（李嘉旭）
      *
      * @param orders
      * @return
