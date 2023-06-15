@@ -1,6 +1,6 @@
 package edu.czjt.reggie.common;
 
-//lloop
+//qly
 public class BaseContext {
 
     private static ThreadLocal<Long> threadLocal = new ThreadLocal<>();
