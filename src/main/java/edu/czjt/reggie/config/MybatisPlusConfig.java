@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 配置MP的分页插件
- * Created by jinkun.tian on 2023/3/21
+ * Created by xuzifeng.tian on 2023/3/21
  */
 @Configuration
 public class MybatisPlusConfig {
