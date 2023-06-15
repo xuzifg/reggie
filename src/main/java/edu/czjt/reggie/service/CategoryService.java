@@ -4,7 +4,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import edu.czjt.reggie.entity.Category;
 
 /**
- * Created by chenzhituo.tian on 2023/6/10
+ * 陈智拓做
  */
 public interface CategoryService extends IService<Category> {
 }
+
