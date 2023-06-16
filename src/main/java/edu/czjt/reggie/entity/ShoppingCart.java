@@ -6,9 +6,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/**
- * 购物车
- */
+// 购物车  许子枫
 @Data
 public class ShoppingCart implements Serializable {
 
